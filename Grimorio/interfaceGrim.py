@@ -66,8 +66,8 @@ def main(page: ft.Page):
                 
                
                 print(f"👤 Nome recebido: {nome_personagem}") 
-                lbl_titulo.value = f"Grimório de {nome_personagem}"
-                page.title = f"Grimório de {nome_personagem}"
+                lbl_titulo.value = f"Grimório de {nome_personagem.title()}"
+                page.title = f"Grimório de {nome_personagem.title()}"
                 
                 
                 if nome_personagem == "Viajante":

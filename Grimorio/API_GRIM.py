@@ -26,8 +26,6 @@ def salvar_dados_completos(dados):
     with open(ARQUIVO_DB, "w", encoding="utf-8") as arquivo:
         json.dump(dados, arquivo, indent=4)
 
-
-
 @app.route('/')
 def home():
     return "<h1>🛡️ API do RPG Online!</h1>"

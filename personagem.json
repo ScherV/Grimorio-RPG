@@ -1,9 +1,7 @@
 {
-    "nome_personagem": "Deimos",
+    "nome_personagem": "Scher",
     "habilidades": {
-        "Translucido": 3,
-        "ancestral da morte": 4,
-        "mimica": 2,
-        "tato espiritual": 3
-    }
+        "comer o casca": 3
+    },
+    "voar": 1
 }
